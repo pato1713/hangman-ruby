@@ -10,5 +10,9 @@ module Hangman
     def words_dictionary_path
       File.absolute_path("./lib/assets/google-10000-english-no-swears.txt")
     end
+
+    def save_game_path
+      File.absolute_path("./lib/assets/hangman_save.json")
+    end
   end
 end

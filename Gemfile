@@ -13,3 +13,5 @@ gem "rubocop", "~> 1.21"
 
 gem "pastel", "~> 0.8.0"
 gem "tty-font", "~> 0.5.0"
+
+gem "tty-prompt", "~> 0.23.1"
